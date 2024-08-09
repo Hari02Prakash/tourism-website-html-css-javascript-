@@ -1,0 +1,573 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	
+}
+.landing{
+	width: 1366px;
+	height: 1874px;
+	background-color:  whitesmoke;
+	margin: 0 auto;
+}
+.divisions{
+	width: 1366px;
+	height: 400;
+}
+.header{
+width: 1366px;
+	height: 145px;
+	background-color: aquamarine;
+}
+.header-banner{
+	width: 1366px;
+	height: 270px;
+	background-size: cover;
+}
+
+.logo{
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	margin-top: -185px;
+	margin-left: 46px;
+}
+.listd{
+	position: absolute;
+	width: 1366px;
+	height: 100px;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -142px;
+}
+.listd ul{
+	display: flex;
+}
+.lista{
+	list-style: none;
+	margin-left: 40px;
+	font-family:  Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:20px;
+	font-weight: 700;
+	color: white;
+}
+.lista a{
+	text-decoration: none;
+	color: white;
+}
+.about-heading{
+	text-align: center;
+	margin-top: 0px;
+	font-family:  Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: white;
+}
+
+.division-a{
+	width: 1366px;
+	height: 600px;
+	background: url("images/price-bg.webp");
+	margin-top: 68px;
+	display: flex;
+}
+
+.letters{
+	width: 600px;
+	height: 500px;
+	
+	margin-left: 66px;
+	padding-top: 66px;
+	
+}
+
+.ha{
+	margin-left: 0px;
+	color: #363539;
+	font-size: 30px;
+	font-family:  Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	margin-top: 10px;
+	word-spacing: ;
+	
+}
+
+.hb{
+		margin-left: 0px;
+	color:#363539;
+	font-size: 40px;
+	font-family:  Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	margin-top:20px ;
+	word-spacing: ;
+}
+
+.pa{
+		margin-left: 0px;
+	color: #363539;
+	font-size: 15px;
+	font-family:  Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	margin-top: 10px;
+	line-height: 23px;
+}
+.pb{
+			margin-left: 0px;
+	color: #363539;
+	font-size: 15px;
+	font-family:  Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	margin-top: 10px;
+	line-height:23px;
+}
+
+.booknow-button {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  background-color:  #363539;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+	margin-left: -4px;
+	margin-top: 34px;
+}
+.booknow-button a{
+	text-decoration: none;
+	color: white;
+}
+
+.booknow-button-icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+.booknow-button:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+.booknow-button:hover .booknow-button-icon {
+  transform: translate(4px);
+}
+
+.booknow-button:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.booknow-button::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+
+
+.hoverimg{
+	width: 600px;
+	margin-top: 87px;
+	margin-left: 50px;
+}
+
+.hover13 figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/*division B*/
+
+
+.division-b{
+	width: 1366px;
+	height: 350px;
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+.box-a{
+	width: 330px;
+	height: 227px;
+	background:url("images/wc-bg.webp");
+	border-radius: 20px;
+	margin-top: 50px;
+}
+.world{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.best-services{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+	margin-top: 10px;
+	margin-left: 20px;
+	color:  #363539;
+}
+.payment{
+	margin-left: 20px;
+	margin-top: 10px;
+	color:  #363539;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+}
+
+.division-c{
+	width: 1366px;
+	height: 310px;
+	background:url("images/wc-bg.webp");
+}
+.email{
+	width: 214px;
+	height: 178px;
+	background-size: cover;
+	margin-top: 65px;
+	margin-left: 51px;
+}
+.get{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+	font-size:20px ;
+	margin-top: -150px;
+	margin-left: 269px;
+	color:#363539;
+}
+.newsletter{
+		font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+	font-size:38px ;
+	margin-top: 18px;
+	margin-left: 269px;
+	color:#363539;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+	margin-left: 900px;
+	margin-top: -69px;
+}
+
+.input {
+  min-height: 48px;
+  max-width: 200px;
+  padding: 0 1rem;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #363539;
+  border-radius: 6px 0 0 6px;
+  background-color: transparent;
+}
+
+.button--submit {
+  min-height: 50px;
+  padding: .5em 1em;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  background-color: #363539;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+}
+
+.button--submit:hover {
+  background-color: gray;
+}
+
+.input:focus, .input:focus-visible {
+  border-color: #3898EC;
+  outline: none;
+}
+
+
+
+
+
+
+
+
+.footer{
+	
+	width: 1366px;
+	height: 375px;
+	background-size: cover;
+	display: flex;
+}
+
+.logos-socmedia{
+	width: 455px;
+	height: 375px;
+	
+}
+.footer-logo{
+	width: 180px;
+	height: 180px;
+	background-size: cover;
+	margin-left: 23px;
+	margin-top: 0px;
+	position: relative;
+}
+.footer-para{
+		font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: #363539;
+	margin-left: 56px;
+	margin-top: -30px;
+	
+}
+.sm-logos{
+	margin-left: 56px;
+	margin-top: 20px;
+}
+.fb{
+	margin-left: 30px;
+	width: 48px;
+	height: 48px;
+	background-size: cover;
+}
+.fbc{
+	margin-left: 30px;
+	width: 55px;
+	height: 55px;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+        
+  
+.location-logo{
+		width: 455px;
+	height: 375px;
+	
+}
+
+.infoh{
+	color: #363539;
+font-weight: 700;
+	margin-left: 142px;
+	margin-top: 85px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 28px;
+}
+.location{
+	width: 100%;
+	height: 40px;
+	
+	margin-top: 40px;
+}
+.loclogo{
+	width: 30px;
+	height: 30px;
+	background-size: cover;
+	float: left;
+	margin-left: 136px;
+}
+.our{
+	float: right;
+	margin-right: 294px;
+	color:  #4d8b55;
+	font-weight: bolder;
+	
+}
+.locp{
+	margin-left: 170px;
+	margin-top:6px;
+	margin-right: 185px;
+	font-size: 16px;
+	 color:#363539;
+}
+.phones{
+	width: 100%;
+	height: 60px;
+	
+	margin-top: 40px;
+}
+.phonelogo{
+	width: 31px;
+	height: 39px;
+	background-size: cover;
+	float: left;
+	margin-left: 139px;
+	margin-top: 0px;
+}
+.phoneh{
+	margin-left: 58px;
+	color:  #4d8b55;
+	font-weight: bolder;
+}
+.num{
+	margin-left: 170px;
+	color:#363539;
+}
+.numa{
+	margin-left: 170px;
+	color: #363539;
+}
+
+.subscribe-footer{
+			width: 455px;
+	height: 375px;
+}
+
+.subscribe{
+	width: 30%;
+	height: 100%;
+	float: right;
+	
+	margin-right: 20px;
+	margin-top: 0px;
+}
+
+.subh{
+	color: #363539;
+font-weight: 700;
+	margin-left: -204px;
+	margin-top: 94px;
+		font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 28px;
+}
+/*
+.forma{
+	padding: 12px;
+	border-radius: 30px;
+	background-color: white;
+	width: 274px;
+	margin-left: 20px;
+	margin-top: 20px;
+	
+	
+}
+.forma input{
+	border: none;
+}
+
+.btns{
+	background-color: #4d8b55;
+	color: white;
+	padding:4px;
+	border: none;
+	width: 100px;
+	border-radius: 30px;
+}
+*/
+/*
+.forma{
+	padding: 20px;
+	position: relative;
+}
+*/
+.footerbtn{
+	padding: 20px;
+	position: relative;
+	width: 250px;
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-left: -210px;
+	border: none;
+}
+.btny{
+	position: absolute;
+	margin-left: 198px;
+	margin-top: -78px;
+}
+.btns{
+	position: absolute;
+	color: white;
+	padding: 20px;
+	border-radius: 30px;
+	background-color: #363539;
+	border: none;
+	margin-top:23px;
+	margin-left: -215px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
